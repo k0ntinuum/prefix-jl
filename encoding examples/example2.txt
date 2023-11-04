@@ -1,0 +1,245 @@
+
+
+0
+|||O       O|         4         
+OO         |O|O       0         
+||O|O      ||OO       1         
+O          ||O|       2         
+|          |OO        3         
+
+
+
+1
+O|O|       OO|        4         
+|O         |O|O       3         
+|||||      ||O|       0         
+O          |OO        2         
+|          O|O        1         
+
+
+
+2
+|OO        ||         4         
+O|O        O||        2         
+O||O       OOOO       0         
+O          O|O|       1         
+|          |O|O       3         
+
+
+
+3
+O||OO      |          1         
+|O|        O|         2         
+OOOO|      OOO|       3         
+O          OO|        4         
+|          OOOO       0         
+
+
+
+4
+O|O        |O|O       2         
+|OO        O          4         
+OOO        ||         1         
+O          |OO        0         
+|          |O||       3         
+
+encode
+|||||O
+|OOOOOOO|
+0     3      0      
+|     |      |||O   
+|OO   OOOO   O|     
+
+
+
+
+decode
+|OOOOOOO|
+|||||O
+0     3      0      
+|OO   OOOO   O|     
+|     |      |||O   
+
+
+
+
+encode
+|O||OOOOO
+|OO||OOO|O||OO
+0     3       1     2      1     
+|     O||OO   O     O      O     
+|OO   |       |OO   O|O|   |OO   
+
+
+
+
+decode
+|OO||OOO|O||OO
+|O||OOOOO
+0     3       1     2      1     
+|OO   |       |OO   O|O|   |OO   
+|     O||OO   O     O      O     
+
+
+
+
+encode
+O|OO||OO|
+||O||||O||OOOO|O|O|OO
+0      2     4      3      0      0     
+O      |OO   |      |      OO     |     
+||O|   ||    |O||   OOOO   |O|O   |OO   
+
+
+
+
+decode
+||O||||O||OOOO|O|O|OO
+O|OO||OO|
+0      2     4      3      0      0     
+||O|   ||    |O||   OOOO   |O|O   |OO   
+O      |OO   |      |      OO     |     
+
+
+
+
+encode
+|O|OO||||O||
+|OOOO|O|O||OOOO|OOO||O|O
+0     3     4     4      3      0     3     2      
+|     O     |OO   |      |      |     |O|   |      
+|OO   OO|   O     |O||   OOOO   |OO   O|    |O|O   
+
+
+
+
+decode
+|OOOO|O|O||OOOO|OOO||O|O
+|O|OO||||O||
+0     3     4     4      3      0     3     2      
+|OO   OO|   O     |O||   OOOO   |OO   O|    |O|O   
+|     O     |OO   |      |      |     |O|   |      
+
+
+
+
+encode
+O|||O|OOO|
+||O||O|OOOOO|OOOO|O|OO|OO
+0      2      3      0     3     4     4     0     
+O      |      |      |     O     |OO   O     |     
+||O|   |O|O   OOOO   |OO   OO|   O     |OO   |OO   
+
+
+
+
+decode
+||O||O|OOOOO|OOOO|O|OO|OO
+O|||O|OOO|
+0      2      3      0     3     4     4     0     
+||O|   |O|O   OOOO   |OO   OO|   O     |OO   |OO   
+O      |      |      |     O     |OO   O     |     
+
+
+
+
+encode
+OOOOO|OO
+|O|O|O|O||O|||
+0      0      0      2     
+OO     OO     O      |OO   
+|O|O   |O|O   ||O|   ||    
+
+
+
+
+decode
+|O|O|O|O||O|||
+OOOOO|OO
+0      0      0      2     
+|O|O   |O|O   ||O|   ||    
+OO     OO     O      |OO   
+
+
+
+
+encode
+OO||||OO||
+|O|O|OOOOOO|OOOOOO|O|O|OOOOOO
+0      0     3      0     3      0      0     3      
+OO     |     |      |     |      OO     |     |      
+|O|O   |OO   OOOO   |OO   OOOO   |O|O   |OO   OOOO   
+
+
+
+
+decode
+|O|O|OOOOOO|OOOOOO|O|O|OOOOOO
+OO||||OO||
+0      0     3      0     3      0      0     3      
+|O|O   |OO   OOOO   |OO   OOOO   |O|O   |OO   OOOO   
+OO     |     |      |     |      OO     |     |      
+
+
+
+
+encode
+OO|O||O|||OOO
+|O|O|OOOO||O||O||O|OOOOO|O|O||O|
+0      0     3     4      3     2      3      0      0      
+OO     |     O     |      |O|   |      |      OO     O      
+|O|O   |OO   OO|   |O||   O|    |O|O   OOOO   |O|O   ||O|   
+
+
+
+
+decode
+|O|O|OOOO||O||O||O|OOOOO|O|O||O|
+OO|O||O|||OOO
+0      0     3     4      3     2      3      0      0      
+|O|O   |OO   OO|   |O||   O|    |O|O   OOOO   |O|O   ||O|   
+OO     |     O     |      |O|   |      |      OO     O      
+
+
+
+
+encode
+|||||OO||O
+|OOOOOOO||OO|OOOOOO||O|
+0     3      0      4     0     3      0      
+|     |      |||O   O     |     |      O      
+|OO   OOOO   O|     |OO   |OO   OOOO   ||O|   
+
+
+
+
+decode
+|OOOOOOO||OO|OOOOOO||O|
+|||||OO||O
+0     3      0      4     0     3      0      
+|OO   OOOO   O|     |OO   |OO   OOOO   ||O|   
+|     |      |||O   O     |     |      O      
+
+
+
+
+encode
+OOO|OOOO|
+|O|O||O||||OO||O||O|O
+0      0      2     4     0      2      
+OO     O      |OO   O     O      |      
+|O|O   ||O|   ||    |OO   ||O|   |O|O   
+
+
+
+
+decode
+|O|O||O||||OO||O||O|O
+OOO|OOOO|
+0      0      2     4     0      2      
+|O|O   ||O|   ||    |OO   ||O|   |O|O   
+OO     O      |OO   O     O      |      
+
+
+
+
